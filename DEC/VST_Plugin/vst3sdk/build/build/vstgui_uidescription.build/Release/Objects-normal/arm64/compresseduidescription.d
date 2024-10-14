@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.cpp \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/cresourcedescription.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguidebug.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/uidescription.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/iuidescription.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguifwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/cfont.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/cstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/optional.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/iplatformstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/../vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/uidescriptionfwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/cstream.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/uicontentprovider.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/icontentprovider.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/miniz/miniz.c \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/uidescription/miniz/miniz.h

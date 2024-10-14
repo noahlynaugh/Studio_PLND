@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/ctextlabel.cpp \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/ctextlabel.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/cparamdisplay.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cview.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../vstguifwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../vstguidebug.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cpoint.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../crect.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../vstkeycode.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cbuttonstate.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cgraphicstransform.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../ifocusdrawing.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cfont.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../optional.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../ccolor.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cdrawdefs.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/itextlabellistener.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../dispatchlist.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformfont.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguifwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cdrawmethods.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../cdrawcontext.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/controls/../clinestyle.h

@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1585AEC9584467CAA9446A64 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 510A5D98310B46D8B81B6714 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A22BE211F68B42A72B23FE96 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				C96B4BCBE09B4FE4AEFAB72E /* PBXTargetDependency */,
+				EF12847C5BE54575BA4ABF0F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C850EAC85E28463AB0C7B827 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B990156D00A5CD8E8D1ED548 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09886F816FAC46CDA2CF5E66 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXBuildFile; fileRef = 3B9EBD8CACE045B8BE44CF3C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */; };
+		233E8763298049C7B2053805 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXBuildFile; fileRef = 9B49D759BE134E7FA21D3801 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */; };
+		265570AF9B9948AFBD41075A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXBuildFile; fileRef = 8B9E14C8C23B4FB19EE25E25 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */; };
+		26C2FE4DD19D4405A436A7BE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXBuildFile; fileRef = BDEDAB4DB8144D48AA23A68E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */; };
+		3006A5C2C9134C2FB7B83112 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXBuildFile; fileRef = 62C58DCFFDAA463DB8ACB6EB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */; };
+		39952E05EED849FFAB24397F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXBuildFile; fileRef = F6B342B5B07C48AAB2225672 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */; };
+		3F89A5EF5E7C457DBAE915F0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = EE2CA2E1A8324397839AF207 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */; };
+		44D47E900C924B58B46104E0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXBuildFile; fileRef = 4B58BF3F4D244F01AADF6454 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */; };
+		45F52F8F5FE049D69CFCDAE0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXBuildFile; fileRef = 66DC6489282D42EE8C95C897 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */; };
+		4751B13821B94BB1AFFA2EE8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXBuildFile; fileRef = 4F11DFF1AA8C497594AF9DB0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */; };
+		5410272113BC452FBBB40ABD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 35E0F16B77674804A1F9889A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */; };
+		57661DC0B173435CB86B31D2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = 34B10DDFEE824CEB9565862B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */; };
+		58711E9E6CB4481C958DDBC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXBuildFile; fileRef = 17D7E642315C4CC9AD5EFB96 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */; };
+		5953928BB9814DB98FF4A1E4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXBuildFile; fileRef = 274A5A391DCE432B91333CEF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */; };
+		5A5ADC4ECA9C415EA3B23C60 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXBuildFile; fileRef = 334094E94CB846619D0DBDF3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */; };
+		6085C8FFF88848CE80DB5751 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXBuildFile; fileRef = 3216113C7D404F8CB76D5CA9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */; };
+		78A34A9785594A60BE3797B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXBuildFile; fileRef = A15B5A1B25794C8CAF486879 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */; };
+		7AE9612C18CD4462B4A9D5A3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXBuildFile; fileRef = CD31F36AF8904A5E876CB51E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */; };
+		7CE250F141ED45A7BF315573 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXBuildFile; fileRef = 1C23523391D041A89E6917C1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */; };
+		848A933836434FEFBE7C0A65 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 2207145DAE444319840752FC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		881604EE4C224962945BC6F4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXBuildFile; fileRef = A912CC44274043CAB7B0E02F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */; };
+		9B8DCCC343B24AB69E85DF9A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXBuildFile; fileRef = 1BA07183FAD843AABECF66FB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */; };
+		9E346C64052D45C58B9F2396 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXBuildFile; fileRef = 9551C5EEE6F049B09A6346AB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */; };
+		A4DD43C8458540ED87E4BC0C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 877A4107C81F4C53BB406B86 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */; };
+		C3922E3BE0AB440E9F173972 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXBuildFile; fileRef = BF92A9E3B02D4979AAD4507E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */; };
+		CB595C01518A4E7D8CE5C085 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXBuildFile; fileRef = B528F5D9FAF045379BECCB67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */; };
+		E6177339AA4240CB99D09925 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXBuildFile; fileRef = EE3C07BFBFB1483085C2509A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */; };
+		EA516645A9804DB5B4593AC5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXBuildFile; fileRef = 66E20261F3B9432F9D8038EE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */; };
+		FF39D0A08585450692B43147 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXBuildFile; fileRef = 8F52F53FDCAB412B8D2EDAC4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2C8E0D9A8B9445A49EBCF407 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		956235E5FFDC43FC9D35F1BE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		588C0570284E40828D1C935C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D228BFB5420E4B39B0CE2BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE7A27FBF1F483C86C9EF16;
+			remoteInfo = ZERO_CHECK;
+		};
+		9B862131A691443EAABA94CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D228BFB5420E4B39B0CE2BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE7A27FBF1F483C86C9EF16;
+			remoteInfo = ZERO_CHECK;
+		};
+		C7ECE56E81B54615BAE9C695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D228BFB5420E4B39B0CE2BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746A1CAD387E282983CC7019;
+			remoteInfo = "host-checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D5C5816185497E823C4B37 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		17D7E642315C4CC9AD5EFB96 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckerprocessor.h; path = source/hostcheckerprocessor.h; sourceTree = SOURCE_ROOT; };
+		1BA07183FAD843AABECF66FB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckercontroller.cpp; path = source/hostcheckercontroller.cpp; sourceTree = SOURCE_ROOT; };
+		1C23523391D041A89E6917C1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processcontextcheck.cpp; path = source/processcontextcheck.cpp; sourceTree = SOURCE_ROOT; };
+		2207145DAE444319840752FC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp"; sourceTree = "<absolute>"; };
+		274A5A391DCE432B91333CEF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = editorsizecontroller.h; path = source/editorsizecontroller.h; sourceTree = SOURCE_ROOT; };
+		3216113C7D404F8CB76D5CA9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		334094E94CB846619D0DBDF3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processsetupcheck.h; path = source/processsetupcheck.h; sourceTree = SOURCE_ROOT; };
+		34B10DDFEE824CEB9565862B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogdatabrowsersource.h; path = source/eventlogdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		35E0F16B77674804A1F9889A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B9EBD8CACE045B8BE44CF3C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangescheck.cpp; path = source/parameterchangescheck.cpp; sourceTree = SOURCE_ROOT; };
+		4B58BF3F4D244F01AADF6454 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheck.h; path = source/hostcheck.h; sourceTree = SOURCE_ROOT; };
+		4F11DFF1AA8C497594AF9DB0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlistcheck.h; path = source/eventlistcheck.h; sourceTree = SOURCE_ROOT; };
+		62C58DCFFDAA463DB8ACB6EB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logevents.h; path = source/logevents.h; sourceTree = SOURCE_ROOT; };
+		66DC6489282D42EE8C95C897 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextcheck.h; path = source/processcontextcheck.h; sourceTree = SOURCE_ROOT; };
+		66E20261F3B9432F9D8038EE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = knob.png; path = resource/knob.png; sourceTree = SOURCE_ROOT; };
+		877A4107C81F4C53BB406B86 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		8B9E14C8C23B4FB19EE25E25 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogger.cpp; path = source/eventlogger.cpp; sourceTree = SOURCE_ROOT; };
+		8F52F53FDCAB412B8D2EDAC4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogger.h; path = source/eventlogger.h; sourceTree = SOURCE_ROOT; };
+		8F569F4F7CDA4D588FB2C7C2 /* host-checker */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "host-checker.bundle/Contents/MacOS/host-checker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9551C5EEE6F049B09A6346AB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = editorsizecontroller.cpp; path = source/editorsizecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		9B49D759BE134E7FA21D3801 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckercontroller.h; path = source/hostcheckercontroller.h; sourceTree = SOURCE_ROOT; };
+		A15B5A1B25794C8CAF486879 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchangescheck.h; path = source/parameterchangescheck.h; sourceTree = SOURCE_ROOT; };
+		A912CC44274043CAB7B0E02F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckerprocessor.cpp; path = source/hostcheckerprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		B528F5D9FAF045379BECCB67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheck.cpp; path = source/hostcheck.cpp; sourceTree = SOURCE_ROOT; };
+		BDEDAB4DB8144D48AA23A68E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlistcheck.cpp; path = source/eventlistcheck.cpp; sourceTree = SOURCE_ROOT; };
+		BF92A9E3B02D4979AAD4507E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cids.h; path = source/cids.h; sourceTree = SOURCE_ROOT; };
+		CD31F36AF8904A5E876CB51E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = bypass.png; path = resource/bypass.png; sourceTree = SOURCE_ROOT; };
+		EE2CA2E1A8324397839AF207 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogdatabrowsersource.cpp; path = source/eventlogdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		EE3C07BFBFB1483085C2509A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = hostchecker.uidesc; path = resource/hostchecker.uidesc; sourceTree = SOURCE_ROOT; };
+		F6B342B5B07C48AAB2225672 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processsetupcheck.cpp; path = source/processsetupcheck.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA9D1B8C3314A0C932499C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A9B382E4AF4947875E8B32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD31F36AF8904A5E876CB51E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				66E20261F3B9432F9D8038EE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2594AEFCD48C4B3BA02479BC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4FCDC22AB4B74B049121D05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F4F7CDA4D588FB2C7C2 /* host-checker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5702E15EEF5A49CE9008EC4D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9551C5EEE6F049B09A6346AB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				BDEDAB4DB8144D48AA23A68E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				EE2CA2E1A8324397839AF207 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				8B9E14C8C23B4FB19EE25E25 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				877A4107C81F4C53BB406B86 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				B528F5D9FAF045379BECCB67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				1BA07183FAD843AABECF66FB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				A912CC44274043CAB7B0E02F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				3B9EBD8CACE045B8BE44CF3C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				1C23523391D041A89E6917C1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				F6B342B5B07C48AAB2225672 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				2207145DAE444319840752FC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		87BF73F725F546888C7766C1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2594AEFCD48C4B3BA02479BC /* CMake Rules */,
+				08D5C5816185497E823C4B37 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9365E5FDD7BA4F5DA62A0CE0 /* host-checker */ = {
+			isa = PBXGroup;
+			children = (
+				E295AB9698144488B99F1034 /* Header Files */,
+				5702E15EEF5A49CE9008EC4D /* Source Files */,
+				10A9B382E4AF4947875E8B32 /* Resources */,
+				35E0F16B77674804A1F9889A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+				EE3C07BFBFB1483085C2509A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+			);
+			name = "host-checker";
+			sourceTree = "<group>";
+		};
+		A62B36933D46490D9CEB9BE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF27A3D8A152449193E06077 /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				9365E5FDD7BA4F5DA62A0CE0 /* host-checker */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		E295AB9698144488B99F1034 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF92A9E3B02D4979AAD4507E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */,
+				274A5A391DCE432B91333CEF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */,
+				4F11DFF1AA8C497594AF9DB0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */,
+				34B10DDFEE824CEB9565862B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */,
+				8F52F53FDCAB412B8D2EDAC4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */,
+				4B58BF3F4D244F01AADF6454 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */,
+				9B49D759BE134E7FA21D3801 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */,
+				17D7E642315C4CC9AD5EFB96 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */,
+				62C58DCFFDAA463DB8ACB6EB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */,
+				A15B5A1B25794C8CAF486879 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */,
+				66DC6489282D42EE8C95C897 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */,
+				334094E94CB846619D0DBDF3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */,
+				3216113C7D404F8CB76D5CA9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		ED0E927B8E6B42998C529DF5 = {
+			isa = PBXGroup;
+			children = (
+				BF27A3D8A152449193E06077 /* PlugIn-Examples */,
+				87BF73F725F546888C7766C1 /* ALL_BUILD */,
+				4FCDC22AB4B74B049121D05C /* Products */,
+				FF926367982249F4AD2EFDB3 /* Frameworks */,
+				A62B36933D46490D9CEB9BE9 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		FF926367982249F4AD2EFDB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746A1CAD387E282983CC7019 /* host-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1345F238AC734B30AD32186F /* Build configuration list for PBXNativeTarget "host-checker" */;
+			buildPhases = (
+				D879B8BF7691362D2B31FA5A /* CMake PreBuild Rules */,
+				1B7BB954DD8A41B293E32DF7 /* Resources */,
+				12FA9F237C71477BA42B300C /* Sources */,
+				7CA9D1B8C3314A0C932499C1 /* Frameworks */,
+				818E701F904CBC85ED3D9767 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8D6B7BDA2542BDA825CAC7 /* PBXTargetDependency */,
+			);
+			name = "host-checker";
+			productName = "host-checker";
+			productReference = 8F569F4F7CDA4D588FB2C7C2 /* host-checker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D228BFB5420E4B39B0CE2BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 9339A2B0B7F84D00862B31DF /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2C8E0D9A8B9445A49EBCF407 /* Debug */,
+				956235E5FFDC43FC9D35F1BE /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = ED0E927B8E6B42998C529DF5;
+			projectDirPath = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker";
+			projectRoot = "";
+			targets = (
+				1585AEC9584467CAA9446A64 /* ALL_BUILD */,
+				1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */,
+				746A1CAD387E282983CC7019 /* host-checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		818E701F904CBC85ED3D9767 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.11.0 -path /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3 -compat /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/vst_compatibility.json -output /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  codesign -f -s - -v /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Debug/validator /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3 
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3 /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.11.0 -path /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3 -compat /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/vst_compatibility.json -output /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  codesign -f -s - -v /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Release/validator  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3 /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A22BE211F68B42A72B23FE96 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B990156D00A5CD8E8D1ED548 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  make -f /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  make -f /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D879B8BF7691362D2B31FA5A /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/host-checker.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/host-checker.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7BB954DD8A41B293E32DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE9612C18CD4462B4A9D5A3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				E6177339AA4240CB99D09925 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+				EA516645A9804DB5B4593AC5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12FA9F237C71477BA42B300C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E346C64052D45C58B9F2396 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				26C2FE4DD19D4405A436A7BE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				3F89A5EF5E7C457DBAE915F0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				265570AF9B9948AFBD41075A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				A4DD43C8458540ED87E4BC0C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				CB595C01518A4E7D8CE5C085 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				9B8DCCC343B24AB69E85DF9A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				881604EE4C224962945BC6F4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				09886F816FAC46CDA2CF5E66 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				7CE250F141ED45A7BF315573 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				39952E05EED849FFAB24397F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				848A933836434FEFBE7C0A65 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8D6B7BDA2542BDA825CAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */;
+			targetProxy = 9B862131A691443EAABA94CF /* PBXContainerItemProxy */;
+		};
+		C96B4BCBE09B4FE4AEFAB72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746A1CAD387E282983CC7019 /* host-checker */;
+			targetProxy = C7ECE56E81B54615BAE9C695 /* PBXContainerItemProxy */;
+		};
+		EF12847C5BE54575BA4ABF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */;
+			targetProxy = 588C0570284E40828D1C935C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078C8B8A15A54C64A8A947FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		08061E54D71F46AF9EAF43BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		14FB8461690C43869DD1FAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		363B698DD9114BB1B406F552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",host_checker_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ("/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/base/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/pluginterfaces/..","$(inherited)");
+				INFOPLIST_FILE = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/host-checker.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libvstgui_support.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libsdk.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libvstgui.a","-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libvstgui_uidescription.a",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/libexpat.tbd,"/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libsdk_common.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libbase.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libpluginterfaces.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.host-checker";
+				PRODUCT_NAME = "host-checker";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build/host-checker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		51BC8992C4944E979E2A62A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",host_checker_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ("/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/base/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/pluginterfaces/..","$(inherited)");
+				INFOPLIST_FILE = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/host-checker.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libvstgui_support.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libsdk.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libvstgui.a","-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libvstgui_uidescription.a",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/libexpat.tbd,"/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libsdk_common.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libbase.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libpluginterfaces.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.host-checker";
+				PRODUCT_NAME = "host-checker";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build/host-checker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		CA8BF777BE2D4405B4773E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build";
+			};
+			name = Release;
+		};
+		D9C6D3D3603944D19D859B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SYMROOT = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build";
+			};
+			name = Debug;
+		};
+		F907623D06704997A24E01A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1345F238AC734B30AD32186F /* Build configuration list for PBXNativeTarget "host-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363B698DD9114BB1B406F552 /* Debug */,
+				51BC8992C4944E979E2A62A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		510A5D98310B46D8B81B6714 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907623D06704997A24E01A6 /* Debug */,
+				08061E54D71F46AF9EAF43BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9339A2B0B7F84D00862B31DF /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C6D3D3603944D19D859B19 /* Debug */,
+				CA8BF777BE2D4405B4773E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C850EAC85E28463AB0C7B827 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C8B8A15A54C64A8A947FB /* Debug */,
+				14FB8461690C43869DD1FAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D228BFB5420E4B39B0CE2BFB /* Project object */;
+}

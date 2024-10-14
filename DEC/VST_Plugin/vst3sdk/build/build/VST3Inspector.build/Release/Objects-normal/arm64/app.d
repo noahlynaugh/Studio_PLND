@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/source/app.cpp \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/appdelegate.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../appinit.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../iappdelegate.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../fwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/cstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/vstguifwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/vstguidebug.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/optional.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/platform/iplatformstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/platform/../vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../interface.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/windowlistener.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../iwindowlistener.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/cpoint.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/iapplication.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/fwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/iwindow.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/crect.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/cpoint.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/cstring.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/standalone/include/interface.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/source/window.h

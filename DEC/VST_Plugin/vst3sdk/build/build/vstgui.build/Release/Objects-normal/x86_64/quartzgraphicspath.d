@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.cpp \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgraphicspath.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguifwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguibase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguidebug.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../ccolor.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../crect.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cpoint.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/gradientbase.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../iplatformgradient.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../ccolor.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformgraphicspath.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgraphicstransform.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfactory.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfactory.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfwd.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/cfontmac.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformfont.h \
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgradient.h

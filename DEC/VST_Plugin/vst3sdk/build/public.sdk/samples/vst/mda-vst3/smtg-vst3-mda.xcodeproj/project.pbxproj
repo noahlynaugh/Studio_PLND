@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1585AEC9584467CAA9446A64 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 34BBF72EFA49433BA187D9E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				729B76E7AB44A77246118953 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2C2922355058455682BE1269 /* PBXTargetDependency */,
+				3A0610E93D9A406396CDA848 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B0A19C6953541FC9A861B5C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5663E77F96CC86558BD72735 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		016674929F914AE2AD96D4CE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */ = {isa = PBXBuildFile; fileRef = A02E4678E25142D68913BA2A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */; };
+		01B3795F6F7647058BDB9670 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 5E72263DB7A94ABA8C2C6506 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */; };
+		024327DA0426427194F772E9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */ = {isa = PBXBuildFile; fileRef = 1C1E1D63DC154D6391DBC88A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */; };
+		03A875C23BDC47AFBA28A214 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */ = {isa = PBXBuildFile; fileRef = 453D2A5638674F1A99D17ED4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */; };
+		083E78892E504167BC31DFF6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */ = {isa = PBXBuildFile; fileRef = 0F485F78F4E94071880A027F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */; };
+		09ABA08FC01E4D7590AADC10 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */ = {isa = PBXBuildFile; fileRef = 8079B85CC3F540B59CC0575C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */; };
+		09D5D2E628CE4E98AF259100 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */ = {isa = PBXBuildFile; fileRef = 8794D705943249E8B45832C1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */; };
+		0C089D3F97254E7F947A564D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */ = {isa = PBXBuildFile; fileRef = 97CE7A9B4FF541E994BAA205 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */; };
+		0C31FB25E75A4C368F3CAA7D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */ = {isa = PBXBuildFile; fileRef = 08BF824F52A14169A42041BF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */; };
+		0E4CA8F1C7A54C39B7BFE818 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */ = {isa = PBXBuildFile; fileRef = 834ADABA07E54C46ADFA0AB1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */; };
+		0EC2C90679494363B257601A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */ = {isa = PBXBuildFile; fileRef = 5D100ECFF837420BB66FA507 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */; };
+		0ED42B6483FD41218EF22F48 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */ = {isa = PBXBuildFile; fileRef = 60A4185D6E10496595F66291 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */; };
+		0F060EEF8EA643669FECBD2E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */ = {isa = PBXBuildFile; fileRef = 27EA81BB01244E0D9782782C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */; };
+		1002E4AB08024D068DF47431 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */ = {isa = PBXBuildFile; fileRef = E52476F96D5B4B15A9773066 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */; };
+		10F040EBC1F6484694798526 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */ = {isa = PBXBuildFile; fileRef = 9F5B027C54F3481E95229336 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */; };
+		114F14C55B304E8687FAC8AC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 0958417414CD4F47BCB97B83 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */; };
+		118E23D28E7044449D6434DC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */ = {isa = PBXBuildFile; fileRef = 65BA9A43F16B47A9B2E12C6D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */; };
+		14951A58C5BA4DB8A9D4F38C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 9B14FB00162140C7A0EE55C2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */; };
+		181AA803A20C42F08EAEFBD4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4B4F1403F48745D79AD4F946 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */; };
+		185A4584835049B3AD1AD4C9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 0041F977078E466AAD94221A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */; };
+		1B20A357312C4342A5A147BA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */ = {isa = PBXBuildFile; fileRef = BEE8BDDD3F9342969F59BE3F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */; };
+		1C6BA5B247A44407AACC606A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */ = {isa = PBXBuildFile; fileRef = E1D53F264AC44969A2212A67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */; };
+		1CBAECD05C064A0CAADB8FE7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */ = {isa = PBXBuildFile; fileRef = E9B114CE042843C68CE4D366 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */; };
+		1CC15D8BDF594E3DB8FBFC93 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */ = {isa = PBXBuildFile; fileRef = 0B667537770143A5B84870A3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */; };
+		225DA2A3CA574428B621B91A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = A41B3090A33248E8A72CC559 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */; };
+		2810E5249DED43829DD18CEA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */ = {isa = PBXBuildFile; fileRef = CD487D1B6865474DAB000827 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */; };
+		2A712A39093B4D21A1BBEEE9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */ = {isa = PBXBuildFile; fileRef = A0FE63166103425BAEC86EE0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */; };
+		2AA4A0ED0B7A47CCBC010A8F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */ = {isa = PBXBuildFile; fileRef = 36A3B4CFEB33401DAD9A679D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */; };
+		2B43EC8E48824152921BF759 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 67B516A27DFF4B89929AE2D5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */; };
+		2D0FCC9461354C388258BFC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */ = {isa = PBXBuildFile; fileRef = EB2987A3555D4FDF91843407 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */; };
+		2D410D7D30E643B68E5B263D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */ = {isa = PBXBuildFile; fileRef = 12EEC220276E471F919F7101 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */; };
+		300483316CE642F9B3E047AC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 101286720E3B4B758ED65CA8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */; };
+		3196EC20F5C24B08BB2AAD70 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */ = {isa = PBXBuildFile; fileRef = 2D3FC67C5FC8491F93CBC317 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */; };
+		3198DD91BA1448E4B9263845 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */ = {isa = PBXBuildFile; fileRef = 13CEF4BD4E3641E89142B388 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */; };
+		31A5E5D1CD5E4211A3DDB681 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */ = {isa = PBXBuildFile; fileRef = 5F60916DBAFB466C90FD97B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */; };
+		325BD6B8A70642C6A1B65AAF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */ = {isa = PBXBuildFile; fileRef = 5A2330C1C0AD4850BAC7F400 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */; };
+		32F4F8FA96AF44C28689B46F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */ = {isa = PBXBuildFile; fileRef = 3D49D6BFB611484EB0AE7E1E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */; };
+		349B10D71129440FA95D8CE2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 3A5990BD6FE94C1EA91ADD50 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */; };
+		3535916523974DB1A7BEDEEA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */ = {isa = PBXBuildFile; fileRef = 4029A0166C26452881B01F76 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */; };
+		370FA1FE3A224A029CDFCDB9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */ = {isa = PBXBuildFile; fileRef = A4DEC14EFE1D466B9795E5AF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */; };
+		37EF5D28DDDA45B1988E5F82 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */ = {isa = PBXBuildFile; fileRef = E38801A88EC446B3A427CFED /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */; };
+		3A4094E16B1B4DA3BB47D912 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */ = {isa = PBXBuildFile; fileRef = 079AE5459CED4AD38622FA36 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */; };
+		3CEB58EFE6BA41B5930A523E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */ = {isa = PBXBuildFile; fileRef = A1984B5CB249463090D905D6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */; };
+		3CF7F500CAE1445EAEA08041 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */ = {isa = PBXBuildFile; fileRef = 93F3866C8ABD457C8B5AF8B0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */; };
+		3D0845F42B3D4147A2DEF905 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */ = {isa = PBXBuildFile; fileRef = 83B125FED4B8401781923E19 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */; };
+		3DA5111A6D68489E8BA2AD6A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */ = {isa = PBXBuildFile; fileRef = 82466400DF1E4420AB5B4DC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */; };
+		40061982A33F42CF89584F61 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 4820CC2BE95446AD8B674480 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */; };
+		415E4C4BC8814C0A96517FC1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */ = {isa = PBXBuildFile; fileRef = 11149879FA7C429CB8C845EB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */; };
+		430D2A38218E4B6790A6F9EA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */ = {isa = PBXBuildFile; fileRef = 9CD1666FCF2444F9828560FE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */; };
+		43E5C49BC49446FD8E37C37D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */ = {isa = PBXBuildFile; fileRef = DC28125569024F20990F0C4F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */; };
+		4C317549CD89447B901671D7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */ = {isa = PBXBuildFile; fileRef = 8D4756EEB3ED4822B077FC9B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */; };
+		4C4085FE76D44AF9B6C56E08 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = DD94EFA2A8A1404BB7E976D8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */; };
+		4D590EDFBF9D4CC093009E5F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = B0BA83D96E4D4761B31205FE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */; };
+		4DCAB5D9D12B4D019C35CF07 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 6265549E1C4C4C9AA130BA1D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */; };
+		4DEBAF28F02F4D4092D882F6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */ = {isa = PBXBuildFile; fileRef = 2B19D96BE13B497C81DD9AB8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */; };
+		4E59612C35A647E1AE4E7871 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */ = {isa = PBXBuildFile; fileRef = 19C718A340AC4EA2BC94FBE6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */; };
+		506C2EFAA07C44F182B0172B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */ = {isa = PBXBuildFile; fileRef = F69B7D5A8A454DF4A73B9474 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */; };
+		50B5A3FDF723469789B6DC47 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 7A57FB3C50064CAEB5E1BAF7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */; };
+		516D0086D9734E86B9A46519 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */ = {isa = PBXBuildFile; fileRef = B062780DFB1D474FAF317717 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */; };
+		51FBE76C315F4961AE5CA04E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */ = {isa = PBXBuildFile; fileRef = 7F65DE588FEB47BFA17031F5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */; };
+		53E2DB0D6D6E43F883B595A6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */ = {isa = PBXBuildFile; fileRef = 854D516CA4834E689054A563 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */; };
+		55593179C80F42C79859ED94 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */ = {isa = PBXBuildFile; fileRef = 90EDC4EB4A7246869431F5CF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */; };
+		556A6F27C4FC434580642FD7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */ = {isa = PBXBuildFile; fileRef = 9EB0A6B8690B40A994963C31 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */; };
+		56BB1D08F5DB463F8901C18B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */ = {isa = PBXBuildFile; fileRef = 710F47C66F4E4164842D5829 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */; };
+		59024B5CA61C4D4ABE01B48D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */ = {isa = PBXBuildFile; fileRef = 46B343AA48BA49628486E0D4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */; };
+		60E719DFDC7B40BDA03453B7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */ = {isa = PBXBuildFile; fileRef = 6DE4CAA46CC94A55BC9AD02B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */; };
+		64606F4CEA15460CB1C91E3E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */ = {isa = PBXBuildFile; fileRef = D62A8FED1D4046C982E2AD7D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */; };
+		652C350478FB4C2890ACAC1C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */ = {isa = PBXBuildFile; fileRef = E50B909FF99B473995222831 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */; };
+		686EF9CEB1B34C668E287EB8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */ = {isa = PBXBuildFile; fileRef = 89A8A11DA25143858F8489E3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */; };
+		69DE57E9C8ED4410B032B268 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */ = {isa = PBXBuildFile; fileRef = C91C87C736094C888D17BC6D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */; };
+		6C05773448EC430481FED562 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */ = {isa = PBXBuildFile; fileRef = BD711297A612471AAD7A74ED /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */; };
+		6EDEFDEFFEFA44FFB83C272A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = E52B1299570342699FCD54B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */; };
+		7090BE4715004FB48861905C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */ = {isa = PBXBuildFile; fileRef = 6659940C377C419DBD05083C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */; };
+		77133E7DCBF94121987E8515 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */ = {isa = PBXBuildFile; fileRef = 2E73C0A9F7D04F9B9220A66A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */; };
+		78915AD3E15B4778B2EDC86C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */ = {isa = PBXBuildFile; fileRef = 20FDBB822AAC413FA13A432C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */; };
+		7CAD3A3B44254E03AA9CB400 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */ = {isa = PBXBuildFile; fileRef = E679C4174BF54B959D177FDE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */; };
+		807FCCD1118C4F30A071CAF9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */ = {isa = PBXBuildFile; fileRef = 9DE6256B1696419380001BAA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */; };
+		81863EAD01E242868579315A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 73CAA0747E374501AC162DC2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */; };
+		824B74B626A04A91B85B9005 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = F201AFB5B3D940E4A5281781 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		832BE24306EB44809C01138E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 2A9A2B417305455488B82055 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */; };
+		85C4BF12C67C498B928A9146 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */ = {isa = PBXBuildFile; fileRef = C2877C03D6E84BDD8E838574 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */; };
+		8CE57743CA83424C80CF1DB9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */ = {isa = PBXBuildFile; fileRef = 610BAC9CAA2F4FA8A2D99D6B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */; };
+		8F34C2CFBC8148F59528B692 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */ = {isa = PBXBuildFile; fileRef = 6978B6184488499EAA110B8B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */; };
+		8F5DC1A08A4E44A38D122355 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */ = {isa = PBXBuildFile; fileRef = 57B55D66B6C644678C239997 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */; };
+		9016069012144FEFBE3D1901 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */ = {isa = PBXBuildFile; fileRef = 21497E0A0BFA48E9A72D4E77 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */; };
+		935422EA7DF249F2B7128A4F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 399167DC62C1469FAE21700A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */; };
+		993124E8D2FA43FF884E5FD8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */ = {isa = PBXBuildFile; fileRef = 044780EBBAEE4B23BB1B9780 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */; };
+		9A21D27121C4474D9541B76C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */ = {isa = PBXBuildFile; fileRef = E071B78937664727AB764B0E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */; };
+		9AD75CF6D21A4BF2A4C59B90 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 94F981AA97F342399D60F7B3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */; };
+		9C924C2CE8A847EFA4DAE300 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1B2F357E18894013BB9B73E8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */; };
+		9DD734974A014EA9A578E964 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */ = {isa = PBXBuildFile; fileRef = EC3E92254778479C8B1C2C8E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */; };
+		9E47FFD3F2DB477999EB2C8E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */ = {isa = PBXBuildFile; fileRef = 4EE9D204AD014775A9A6768A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */; };
+		9E8C923FCCB947C4B815C5B1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */ = {isa = PBXBuildFile; fileRef = AC2A5B8070C940709E22822E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */; };
+		9F4B9F9C68F74DB5833D98E5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */ = {isa = PBXBuildFile; fileRef = 6414DFFE8C0B438D95389505 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */; };
+		9F80B54F874346EBB647765E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */ = {isa = PBXBuildFile; fileRef = D4B262AF09A74951AE4BBA89 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */; };
+		A27DDFDB0F954F78BD7AF180 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */ = {isa = PBXBuildFile; fileRef = 1BAE7C9F848B4889B94A9227 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */; };
+		A50545D813D44BCA8ADC9D30 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */ = {isa = PBXBuildFile; fileRef = 646E7ABBCE5048389C2B68F2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */; };
+		A53CA9ED8DED4798B92A9198 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 9C64723729E9489582D0B474 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */; };
+		A556BD242B0E44919154DAD4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */ = {isa = PBXBuildFile; fileRef = F2EF17FB6E604B119B590974 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */; };
+		A637BEDF005645298E343ECB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */ = {isa = PBXBuildFile; fileRef = 428D9B6B262F405BBBC772DD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */; };
+		A8314C682DC24B608E138915 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */ = {isa = PBXBuildFile; fileRef = FAFC201A0D2C4EDB9892032F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */; };
+		AA192FE32A4C40B787D04B38 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */ = {isa = PBXBuildFile; fileRef = D50952A5CDAF4F7DBE866213 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */; };
+		AAD72ED34D4A4D5D834FC4C7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */ = {isa = PBXBuildFile; fileRef = 43AF96F63E444533A35D6DDF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */; };
+		AE872314C44C4330AD259AF6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */ = {isa = PBXBuildFile; fileRef = 984BED16B68941FDA77608DA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */; };
+		B44C911E35A34502A8B2CE1D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */ = {isa = PBXBuildFile; fileRef = A6037BFBE88B465CA4299897 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */; };
+		B707705B42634B6CBEB068A9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */ = {isa = PBXBuildFile; fileRef = 0D951673FEBA4EC190F92D4B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */; };
+		B7D65659333C40E681E57183 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */ = {isa = PBXBuildFile; fileRef = AB3A995083EC4A2297A19DC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */; };
+		B8DCD451F9D6483E83048552 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */ = {isa = PBXBuildFile; fileRef = 0E9C935DC58E4C8CAA677A5E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */; };
+		B94D49CFDD014A318885120A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */ = {isa = PBXBuildFile; fileRef = 9989C7180E9C4A1491C57881 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */; };
+		BC03A5C28A104736A172A9B7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */ = {isa = PBXBuildFile; fileRef = 737A0E56605C4682A332E76C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */; };
+		BCF4B604063D420FB6DE8DFD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 4F4DB6BA764E44D4B088E9EF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */; };
+		C09B39C140F441A4A8C36517 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 368E7ED30564465290A34A93 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */; };
+		C0B6BE3A22C5424197BE43CE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */ = {isa = PBXBuildFile; fileRef = 70388864DB4247818D697F17 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */; };
+		C0D5C7971DAF455BA38F3D87 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */ = {isa = PBXBuildFile; fileRef = F322E61790D84DD287D7B6D9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */; };
+		C12262B66F0E4D148CB38F3C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */ = {isa = PBXBuildFile; fileRef = EF3D9EE80D9441BB9231269F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */; };
+		C16E09CB72BF4F6B83106401 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */ = {isa = PBXBuildFile; fileRef = 5B75243AFA4249258E615666 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */; };
+		C1FB4CB3ACCF4008A3E6B408 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */ = {isa = PBXBuildFile; fileRef = EF5BC5A1FFDB44069B7AEABD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */; };
+		C2C1A78AF062452A93A1CB67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */ = {isa = PBXBuildFile; fileRef = E1D2691D67F64A9FA532C6D2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */; };
+		C902203F81C249B6A4536A34 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */ = {isa = PBXBuildFile; fileRef = 72AF6E65CE184045997894AD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */; };
+		C90930C0B6694731B1BC416D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */ = {isa = PBXBuildFile; fileRef = A861B346C8924AD9ADD03756 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */; };
+		CAB5A287EE6D48D0BEDE44BD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */ = {isa = PBXBuildFile; fileRef = 44DFDFBF9D1C4D9C9473A939 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */; };
+		CDE8C2CF0D014CB39F5CEF75 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */ = {isa = PBXBuildFile; fileRef = 6B98CED0B0554404944D4EAA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */; };
+		CEB3C57BBF2340F787EEDDB8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */ = {isa = PBXBuildFile; fileRef = 01801BBA4AC0490D861CB2B6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */; };
+		D1E3901478204FA1A8985D46 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */ = {isa = PBXBuildFile; fileRef = D7E8ADCF5775419DBCFC342F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */; };
+		D5FEC7ECA8B94648929B8FCE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */ = {isa = PBXBuildFile; fileRef = E229BC902021403B9EAD2613 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */; };
+		D6675531F58D4888BFAA002F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */ = {isa = PBXBuildFile; fileRef = 92056B21531841BD8780C38E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */; };
+		D7820395A8A14BCF9FE76F98 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */ = {isa = PBXBuildFile; fileRef = B042C7A3575D47849E3732DD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */; };
+		D8DE8E5C6CB74ED4B3446377 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */ = {isa = PBXBuildFile; fileRef = 66B2777B8382425A92385C36 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */; };
+		DBAA25FEF92B4340A1CE3887 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1BB702CE89F4494C971BAF42 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */; };
+		DD39FB5827ED459E8152299B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */ = {isa = PBXBuildFile; fileRef = D894AE9CD177442681888A39 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */; };
+		DEAD1A38AF394CADA1D1A396 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */ = {isa = PBXBuildFile; fileRef = 2C0FA0D9D54D4F849D5A3517 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */; };
+		E2713826771C4B7C8F7C8CF6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */ = {isa = PBXBuildFile; fileRef = 39F43EA9F8994F8CAA9BCFC3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */; };
+		E30BE07892104B1F927C20CD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */ = {isa = PBXBuildFile; fileRef = ACA1C0AE7DFB4291B4BE0046 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */; };
+		E61CEBB271254D82AC0B5411 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */ = {isa = PBXBuildFile; fileRef = 06DEC8A565FF443D954E2A99 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */; };
+		EBEAF6BCE7824174AD8E7233 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */ = {isa = PBXBuildFile; fileRef = 1CFCAA4BACE544C5BD3BA7BB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */; };
+		EEF1DAB099D34F57A9A4374C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */ = {isa = PBXBuildFile; fileRef = 2BE168419FDF4D6EB18C6D68 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */; };
+		F0F943A2DFFE4B378EE08C2C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */ = {isa = PBXBuildFile; fileRef = C4C69B22164249D9842A718C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */; };
+		F175F716377B45A1895D53CA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */ = {isa = PBXBuildFile; fileRef = E7994ECD6B354A5B81587881 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */; };
+		F47B74EF1CA44B4B8532A8F6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 5AAE37994DA54D0DAF041801 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */; };
+		F5CB3ECCE88C4A909D9F030B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */ = {isa = PBXBuildFile; fileRef = 30C9115B3931437E8A05A895 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */; };
+		F5CCDD14540B4E0680415937 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */ = {isa = PBXBuildFile; fileRef = 49E47989BA9E4CC4B33A7182 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */; };
+		F638B25FD0774CDBB76CFB82 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */ = {isa = PBXBuildFile; fileRef = 998B5D3D6CA94976BEF786C9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */; };
+		F6A324744F6746EEA1DF1501 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */ = {isa = PBXBuildFile; fileRef = 4DEE3170A9284155BF656019 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */; };
+		FA15E56127D7458699222556 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */ = {isa = PBXBuildFile; fileRef = 1A489492C9144DFCAF7A955C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */; };
+		FA8EAF117B9D4AFEB3599951 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */ = {isa = PBXBuildFile; fileRef = 726C8861C2CD4868AE821430 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */; };
+		FA9FB05D250D4894A57F0543 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */ = {isa = PBXBuildFile; fileRef = D1399D9025BC49A5BE35BBFF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */; };
+		FCFF2483E57D4387BC4472C6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */ = {isa = PBXBuildFile; fileRef = 2E8A21B509574D018CA6A4DB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */; };
+		FD0E1F36F798419DAEC7EFD8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */ = {isa = PBXBuildFile; fileRef = D0E1B45C547947738C149CB4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */; };
+		FD34205763AA44F39435E168 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */ = {isa = PBXBuildFile; fileRef = 8EF74E052182420685BA55BF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		A3FCD34BBA634439A5092768 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AC9FFDCDD98147518B4E2B21 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		48C1F3FAA0CA4A82BB16AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF310BAC5E6A4FE9A54A7412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE7A27FBF1F483C86C9EF16;
+			remoteInfo = ZERO_CHECK;
+		};
+		59A0BFA6223345818D4AA25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF310BAC5E6A4FE9A54A7412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE7A27FBF1F483C86C9EF16;
+			remoteInfo = ZERO_CHECK;
+		};
+		C80B1D7DCDE64AC1BBE71656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF310BAC5E6A4FE9A54A7412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9196346957920AFF8FC5A1;
+			remoteInfo = "mda-vst3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0041F977078E466AAD94221A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBaseProcessor.cpp; path = source/mdaBaseProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		01801BBA4AC0490D861CB2B6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRingModProcessor.h; path = source/mdaRingModProcessor.h; sourceTree = SOURCE_ROOT; };
+		044780EBBAEE4B23BB1B9780 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSubSynthController.cpp; path = source/mdaSubSynthController.cpp; sourceTree = SOURCE_ROOT; };
+		06DEC8A565FF443D954E2A99 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaStereoController.h; path = source/mdaStereoController.h; sourceTree = SOURCE_ROOT; };
+		079AE5459CED4AD38622FA36 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaJX10Controller.cpp; path = source/mdaJX10Controller.cpp; sourceTree = SOURCE_ROOT; };
+		08BF824F52A14169A42041BF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDX10Controller.h; path = source/mdaDX10Controller.h; sourceTree = SOURCE_ROOT; };
+		0958417414CD4F47BCB97B83 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBandistoProcessor.cpp; path = source/mdaBandistoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		0B667537770143A5B84870A3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaParameter.h; path = source/mdaParameter.h; sourceTree = SOURCE_ROOT; };
+		0D951673FEBA4EC190F92D4B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRezFilterController.h; path = source/mdaRezFilterController.h; sourceTree = SOURCE_ROOT; };
+		0E9C935DC58E4C8CAA677A5E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBeatBoxController.h; path = source/mdaBeatBoxController.h; sourceTree = SOURCE_ROOT; };
+		0F485F78F4E94071880A027F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLoudnessController.h; path = source/mdaLoudnessController.h; sourceTree = SOURCE_ROOT; };
+		101286720E3B4B758ED65CA8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaStereoProcessor.cpp; path = source/mdaStereoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		11149879FA7C429CB8C845EB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRePsychoProcessor.h; path = source/mdaRePsychoProcessor.h; sourceTree = SOURCE_ROOT; };
+		12EEC220276E471F919F7101 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRezFilterController.cpp; path = source/mdaRezFilterController.cpp; sourceTree = SOURCE_ROOT; };
+		13CEF4BD4E3641E89142B388 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBaseProcessor.h; path = source/mdaBaseProcessor.h; sourceTree = SOURCE_ROOT; };
+		19C718A340AC4EA2BC94FBE6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDeEsserProcessor.h; path = source/mdaDeEsserProcessor.h; sourceTree = SOURCE_ROOT; };
+		1A489492C9144DFCAF7A955C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDitherProcessor.h; path = source/mdaDitherProcessor.h; sourceTree = SOURCE_ROOT; };
+		1B2F357E18894013BB9B73E8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSubSynthProcessor.cpp; path = source/mdaSubSynthProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		1BAE7C9F848B4889B94A9227 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDegradeController.cpp; path = source/mdaDegradeController.cpp; sourceTree = SOURCE_ROOT; };
+		1BB702CE89F4494C971BAF42 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaAmbienceProcessor.cpp; path = source/mdaAmbienceProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		1C1E1D63DC154D6391DBC88A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaPianoController.cpp; path = source/mdaPianoController.cpp; sourceTree = SOURCE_ROOT; };
+		1CFCAA4BACE544C5BD3BA7BB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDeEsserController.cpp; path = source/mdaDeEsserController.cpp; sourceTree = SOURCE_ROOT; };
+		20FDBB822AAC413FA13A432C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSplitterController.h; path = source/mdaSplitterController.h; sourceTree = SOURCE_ROOT; };
+		21497E0A0BFA48E9A72D4E77 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoController.h; path = source/mdaPianoController.h; sourceTree = SOURCE_ROOT; };
+		27EA81BB01244E0D9782782C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSpecMeterController.cpp; path = source/mdaSpecMeterController.cpp; sourceTree = SOURCE_ROOT; };
+		2A9A2B417305455488B82055 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaOverdriveProcessor.cpp; path = source/mdaOverdriveProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		2B19D96BE13B497C81DD9AB8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBeatBoxProcessor.h; path = source/mdaBeatBoxProcessor.h; sourceTree = SOURCE_ROOT; };
+		2BE168419FDF4D6EB18C6D68 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaAmbienceController.cpp; path = source/mdaAmbienceController.cpp; sourceTree = SOURCE_ROOT; };
+		2C0FA0D9D54D4F849D5A3517 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBeatBoxController.cpp; path = source/mdaBeatBoxController.cpp; sourceTree = SOURCE_ROOT; };
+		2D3FC67C5FC8491F93CBC317 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaJX10Processor.cpp; path = source/mdaJX10Processor.cpp; sourceTree = SOURCE_ROOT; };
+		2E73C0A9F7D04F9B9220A66A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDynamicsController.cpp; path = source/mdaDynamicsController.cpp; sourceTree = SOURCE_ROOT; };
+		2E8A21B509574D018CA6A4DB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLoudnessProcessor.h; path = source/mdaLoudnessProcessor.h; sourceTree = SOURCE_ROOT; };
+		30C9115B3931437E8A05A895 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDubDelayController.h; path = source/mdaDubDelayController.h; sourceTree = SOURCE_ROOT; };
+		368E7ED30564465290A34A93 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRezFilterProcessor.cpp; path = source/mdaRezFilterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		36A3B4CFEB33401DAD9A679D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRePsychoController.cpp; path = source/mdaRePsychoController.cpp; sourceTree = SOURCE_ROOT; };
+		399167DC62C1469FAE21700A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaPianoProcessor.cpp; path = source/mdaPianoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		39F43EA9F8994F8CAA9BCFC3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDelayController.h; path = source/mdaDelayController.h; sourceTree = SOURCE_ROOT; };
+		3A5990BD6FE94C1EA91ADD50 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaImageProcessor.cpp; path = source/mdaImageProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		3D49D6BFB611484EB0AE7E1E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoProcessor.h; path = source/mdaEPianoProcessor.h; sourceTree = SOURCE_ROOT; };
+		4029A0166C26452881B01F76 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTalkBoxProcessor.h; path = source/mdaTalkBoxProcessor.h; sourceTree = SOURCE_ROOT; };
+		428D9B6B262F405BBBC772DD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDubDelayProcessor.h; path = source/mdaDubDelayProcessor.h; sourceTree = SOURCE_ROOT; };
+		43AF96F63E444533A35D6DDF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaImageController.h; path = source/mdaImageController.h; sourceTree = SOURCE_ROOT; };
+		44DFDFBF9D1C4D9C9473A939 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaOverdriveController.cpp; path = source/mdaOverdriveController.cpp; sourceTree = SOURCE_ROOT; };
+		453D2A5638674F1A99D17ED4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaComboController.cpp; path = source/mdaComboController.cpp; sourceTree = SOURCE_ROOT; };
+		46B343AA48BA49628486E0D4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDynamicsProcessor.h; path = source/mdaDynamicsProcessor.h; sourceTree = SOURCE_ROOT; };
+		4820CC2BE95446AD8B674480 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDeEsserProcessor.cpp; path = source/mdaDeEsserProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		49E47989BA9E4CC4B33A7182 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLeslieProcessor.h; path = source/mdaLeslieProcessor.h; sourceTree = SOURCE_ROOT; };
+		4B4F1403F48745D79AD4F946 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DEE3170A9284155BF656019 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaStereoController.cpp; path = source/mdaStereoController.cpp; sourceTree = SOURCE_ROOT; };
+		4EE9D204AD014775A9A6768A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRoundPanController.cpp; path = source/mdaRoundPanController.cpp; sourceTree = SOURCE_ROOT; };
+		4F4DB6BA764E44D4B088E9EF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLoudnessProcessor.cpp; path = source/mdaLoudnessProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		57B55D66B6C644678C239997 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaAmbienceProcessor.h; path = source/mdaAmbienceProcessor.h; sourceTree = SOURCE_ROOT; };
+		5A2330C1C0AD4850BAC7F400 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTrackerController.h; path = source/mdaTrackerController.h; sourceTree = SOURCE_ROOT; };
+		5AAE37994DA54D0DAF041801 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaComboProcessor.cpp; path = source/mdaComboProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		5B75243AFA4249258E615666 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRingModController.cpp; path = source/mdaRingModController.cpp; sourceTree = SOURCE_ROOT; };
+		5D100ECFF837420BB66FA507 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaShepardProcessor.h; path = source/mdaShepardProcessor.h; sourceTree = SOURCE_ROOT; };
+		5E72263DB7A94ABA8C2C6506 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaShepardProcessor.cpp; path = source/mdaShepardProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		5F60916DBAFB466C90FD97B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaThruZeroProcessor.h; path = source/mdaThruZeroProcessor.h; sourceTree = SOURCE_ROOT; };
+		60A4185D6E10496595F66291 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaStereoProcessor.h; path = source/mdaStereoProcessor.h; sourceTree = SOURCE_ROOT; };
+		610BAC9CAA2F4FA8A2D99D6B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTrackerProcessor.h; path = source/mdaTrackerProcessor.h; sourceTree = SOURCE_ROOT; };
+		6265549E1C4C4C9AA130BA1D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRoundPanProcessor.cpp; path = source/mdaRoundPanProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		6414DFFE8C0B438D95389505 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaMultiBandProcessor.h; path = source/mdaMultiBandProcessor.h; sourceTree = SOURCE_ROOT; };
+		646E7ABBCE5048389C2B68F2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaShepardController.h; path = source/mdaShepardController.h; sourceTree = SOURCE_ROOT; };
+		65BA9A43F16B47A9B2E12C6D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaMultiBandController.h; path = source/mdaMultiBandController.h; sourceTree = SOURCE_ROOT; };
+		6659940C377C419DBD05083C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLeslieController.cpp; path = source/mdaLeslieController.cpp; sourceTree = SOURCE_ROOT; };
+		66B2777B8382425A92385C36 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBandistoProcessor.h; path = source/mdaBandistoProcessor.h; sourceTree = SOURCE_ROOT; };
+		67B516A27DFF4B89929AE2D5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRePsychoProcessor.cpp; path = source/mdaRePsychoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		6978B6184488499EAA110B8B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoData.h; path = source/mdaEPianoData.h; sourceTree = SOURCE_ROOT; };
+		6B98CED0B0554404944D4EAA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDeEsserController.h; path = source/mdaDeEsserController.h; sourceTree = SOURCE_ROOT; };
+		6DE4CAA46CC94A55BC9AD02B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaEPianoController.cpp; path = source/mdaEPianoController.cpp; sourceTree = SOURCE_ROOT; };
+		70388864DB4247818D697F17 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDetuneProcessor.h; path = source/mdaDetuneProcessor.h; sourceTree = SOURCE_ROOT; };
+		710F47C66F4E4164842D5829 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLimiterController.cpp; path = source/mdaLimiterController.cpp; sourceTree = SOURCE_ROOT; };
+		726C8861C2CD4868AE821430 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaShepardController.cpp; path = source/mdaShepardController.cpp; sourceTree = SOURCE_ROOT; };
+		72AF6E65CE184045997894AD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaComboProcessor.h; path = source/mdaComboProcessor.h; sourceTree = SOURCE_ROOT; };
+		737A0E56605C4682A332E76C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaThruZeroController.h; path = source/mdaThruZeroController.h; sourceTree = SOURCE_ROOT; };
+		73CAA0747E374501AC162DC2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLeslieProcessor.cpp; path = source/mdaLeslieProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		7A57FB3C50064CAEB5E1BAF7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTestToneProcessor.cpp; path = source/mdaTestToneProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		7F65DE588FEB47BFA17031F5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		8079B85CC3F540B59CC0575C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDX10Controller.cpp; path = source/mdaDX10Controller.cpp; sourceTree = SOURCE_ROOT; };
+		82466400DF1E4420AB5B4DC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLeslieController.h; path = source/mdaLeslieController.h; sourceTree = SOURCE_ROOT; };
+		834ADABA07E54C46ADFA0AB1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoProcessor.h; path = source/mdaPianoProcessor.h; sourceTree = SOURCE_ROOT; };
+		83B125FED4B8401781923E19 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDitherController.h; path = source/mdaDitherController.h; sourceTree = SOURCE_ROOT; };
+		854D516CA4834E689054A563 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDitherController.cpp; path = source/mdaDitherController.cpp; sourceTree = SOURCE_ROOT; };
+		8794D705943249E8B45832C1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLimiterProcessor.h; path = source/mdaLimiterProcessor.h; sourceTree = SOURCE_ROOT; };
+		89A8A11DA25143858F8489E3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaMultiBandController.cpp; path = source/mdaMultiBandController.cpp; sourceTree = SOURCE_ROOT; };
+		8D4756EEB3ED4822B077FC9B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaJX10Controller.h; path = source/mdaJX10Controller.h; sourceTree = SOURCE_ROOT; };
+		8EF74E052182420685BA55BF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = helpers.h; path = source/helpers.h; sourceTree = SOURCE_ROOT; };
+		90EDC4EB4A7246869431F5CF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRezFilterProcessor.h; path = source/mdaRezFilterProcessor.h; sourceTree = SOURCE_ROOT; };
+		91E99FA4E34F4C7C8C38F2E0 /* mda-vst3 */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "mda-vst3.bundle/Contents/MacOS/mda-vst3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92056B21531841BD8780C38E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDelayController.cpp; path = source/mdaDelayController.cpp; sourceTree = SOURCE_ROOT; };
+		93F3866C8ABD457C8B5AF8B0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaThruZeroController.cpp; path = source/mdaThruZeroController.cpp; sourceTree = SOURCE_ROOT; };
+		94F981AA97F342399D60F7B3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaThruZeroProcessor.cpp; path = source/mdaThruZeroProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		97CE7A9B4FF541E994BAA205 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTrackerController.cpp; path = source/mdaTrackerController.cpp; sourceTree = SOURCE_ROOT; };
+		984BED16B68941FDA77608DA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLoudnessController.cpp; path = source/mdaLoudnessController.cpp; sourceTree = SOURCE_ROOT; };
+		9989C7180E9C4A1491C57881 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaComboController.h; path = source/mdaComboController.h; sourceTree = SOURCE_ROOT; };
+		998B5D3D6CA94976BEF786C9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBandistoController.cpp; path = source/mdaBandistoController.cpp; sourceTree = SOURCE_ROOT; };
+		9B14FB00162140C7A0EE55C2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTalkBoxProcessor.cpp; path = source/mdaTalkBoxProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		9C64723729E9489582D0B474 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRingModProcessor.cpp; path = source/mdaRingModProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		9CD1666FCF2444F9828560FE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLimiterController.h; path = source/mdaLimiterController.h; sourceTree = SOURCE_ROOT; };
+		9DE6256B1696419380001BAA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoData.h; path = source/mdaPianoData.h; sourceTree = SOURCE_ROOT; };
+		9EB0A6B8690B40A994963C31 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTestToneController.h; path = source/mdaTestToneController.h; sourceTree = SOURCE_ROOT; };
+		9F5B027C54F3481E95229336 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSubSynthController.h; path = source/mdaSubSynthController.h; sourceTree = SOURCE_ROOT; };
+		A02E4678E25142D68913BA2A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaOverdriveProcessor.h; path = source/mdaOverdriveProcessor.h; sourceTree = SOURCE_ROOT; };
+		A0FE63166103425BAEC86EE0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDelayProcessor.h; path = source/mdaDelayProcessor.h; sourceTree = SOURCE_ROOT; };
+		A1984B5CB249463090D905D6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTalkBoxController.cpp; path = source/mdaTalkBoxController.cpp; sourceTree = SOURCE_ROOT; };
+		A41B3090A33248E8A72CC559 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSpecMeterProcessor.cpp; path = source/mdaSpecMeterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		A4DEC14EFE1D466B9795E5AF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTestToneController.cpp; path = source/mdaTestToneController.cpp; sourceTree = SOURCE_ROOT; };
+		A6037BFBE88B465CA4299897 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDitherProcessor.cpp; path = source/mdaDitherProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		A861B346C8924AD9ADD03756 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRingModController.h; path = source/mdaRingModController.h; sourceTree = SOURCE_ROOT; };
+		AB3A995083EC4A2297A19DC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSplitterController.cpp; path = source/mdaSplitterController.cpp; sourceTree = SOURCE_ROOT; };
+		AC2A5B8070C940709E22822E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBandistoController.h; path = source/mdaBandistoController.h; sourceTree = SOURCE_ROOT; };
+		ACA1C0AE7DFB4291B4BE0046 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDX10Processor.h; path = source/mdaDX10Processor.h; sourceTree = SOURCE_ROOT; };
+		B042C7A3575D47849E3732DD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDetuneProcessor.cpp; path = source/mdaDetuneProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		B062780DFB1D474FAF317717 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDX10Processor.cpp; path = source/mdaDX10Processor.cpp; sourceTree = SOURCE_ROOT; };
+		B0BA83D96E4D4761B31205FE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSplitterProcessor.cpp; path = source/mdaSplitterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		BD711297A612471AAD7A74ED /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBeatBoxProcessor.cpp; path = source/mdaBeatBoxProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		BEE8BDDD3F9342969F59BE3F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDegradeProcessor.h; path = source/mdaDegradeProcessor.h; sourceTree = SOURCE_ROOT; };
+		C2877C03D6E84BDD8E838574 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRePsychoController.h; path = source/mdaRePsychoController.h; sourceTree = SOURCE_ROOT; };
+		C4C69B22164249D9842A718C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTrackerProcessor.cpp; path = source/mdaTrackerProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		C91C87C736094C888D17BC6D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSubSynthProcessor.h; path = source/mdaSubSynthProcessor.h; sourceTree = SOURCE_ROOT; };
+		CA81F54806A547799357354D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CD487D1B6865474DAB000827 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRoundPanController.h; path = source/mdaRoundPanController.h; sourceTree = SOURCE_ROOT; };
+		D0E1B45C547947738C149CB4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSpecMeterController.h; path = source/mdaSpecMeterController.h; sourceTree = SOURCE_ROOT; };
+		D1399D9025BC49A5BE35BBFF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRoundPanProcessor.h; path = source/mdaRoundPanProcessor.h; sourceTree = SOURCE_ROOT; };
+		D4B262AF09A74951AE4BBA89 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDynamicsProcessor.cpp; path = source/mdaDynamicsProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		D50952A5CDAF4F7DBE866213 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaAmbienceController.h; path = source/mdaAmbienceController.h; sourceTree = SOURCE_ROOT; };
+		D62A8FED1D4046C982E2AD7D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoController.h; path = source/mdaEPianoController.h; sourceTree = SOURCE_ROOT; };
+		D7E8ADCF5775419DBCFC342F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaJX10Processor.h; path = source/mdaJX10Processor.h; sourceTree = SOURCE_ROOT; };
+		D894AE9CD177442681888A39 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDelayProcessor.cpp; path = source/mdaDelayProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		DC28125569024F20990F0C4F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDynamicsController.h; path = source/mdaDynamicsController.h; sourceTree = SOURCE_ROOT; };
+		DD94EFA2A8A1404BB7E976D8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaEPianoProcessor.cpp; path = source/mdaEPianoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E071B78937664727AB764B0E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDubDelayController.cpp; path = source/mdaDubDelayController.cpp; sourceTree = SOURCE_ROOT; };
+		E1D2691D67F64A9FA532C6D2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaImageController.cpp; path = source/mdaImageController.cpp; sourceTree = SOURCE_ROOT; };
+		E1D53F264AC44969A2212A67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSpecMeterProcessor.h; path = source/mdaSpecMeterProcessor.h; sourceTree = SOURCE_ROOT; };
+		E229BC902021403B9EAD2613 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaParameter.cpp; path = source/mdaParameter.cpp; sourceTree = SOURCE_ROOT; };
+		E38801A88EC446B3A427CFED /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBaseController.cpp; path = source/mdaBaseController.cpp; sourceTree = SOURCE_ROOT; };
+		E50B909FF99B473995222831 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDegradeController.h; path = source/mdaDegradeController.h; sourceTree = SOURCE_ROOT; };
+		E52476F96D5B4B15A9773066 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSplitterProcessor.h; path = source/mdaSplitterProcessor.h; sourceTree = SOURCE_ROOT; };
+		E52B1299570342699FCD54B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLimiterProcessor.cpp; path = source/mdaLimiterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E679C4174BF54B959D177FDE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBaseController.h; path = source/mdaBaseController.h; sourceTree = SOURCE_ROOT; };
+		E7994ECD6B354A5B81587881 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaImageProcessor.h; path = source/mdaImageProcessor.h; sourceTree = SOURCE_ROOT; };
+		E9B114CE042843C68CE4D366 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTalkBoxController.h; path = source/mdaTalkBoxController.h; sourceTree = SOURCE_ROOT; };
+		EB2987A3555D4FDF91843407 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDetuneController.cpp; path = source/mdaDetuneController.cpp; sourceTree = SOURCE_ROOT; };
+		EC3E92254778479C8B1C2C8E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDubDelayProcessor.cpp; path = source/mdaDubDelayProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		EF3D9EE80D9441BB9231269F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaOverdriveController.h; path = source/mdaOverdriveController.h; sourceTree = SOURCE_ROOT; };
+		EF5BC5A1FFDB44069B7AEABD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDetuneController.h; path = source/mdaDetuneController.h; sourceTree = SOURCE_ROOT; };
+		F201AFB5B3D940E4A5281781 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp"; sourceTree = "<absolute>"; };
+		F2EF17FB6E604B119B590974 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaMultiBandProcessor.cpp; path = source/mdaMultiBandProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		F322E61790D84DD287D7B6D9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdafactory.cpp; path = source/mdafactory.cpp; sourceTree = SOURCE_ROOT; };
+		F69B7D5A8A454DF4A73B9474 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTestToneProcessor.h; path = source/mdaTestToneProcessor.h; sourceTree = SOURCE_ROOT; };
+		FAFC201A0D2C4EDB9892032F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDegradeProcessor.cpp; path = source/mdaDegradeProcessor.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F7A6501AA445968536E4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064E6061A4934D768B072BEC /* mda-vst3 */ = {
+			isa = PBXGroup;
+			children = (
+				65F4579EA8364AC6AB354F49 /* Header Files */,
+				924767B3686A43BFBB36B550 /* Source Files */,
+				4B4F1403F48745D79AD4F946 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */,
+			);
+			name = "mda-vst3";
+			sourceTree = "<group>";
+		};
+		1299A18B330643B8A20A5E9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B7E1E18C28A4260A01D9400 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		65F4579EA8364AC6AB354F49 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF74E052182420685BA55BF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */,
+				D50952A5CDAF4F7DBE866213 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */,
+				57B55D66B6C644678C239997 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */,
+				AC2A5B8070C940709E22822E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */,
+				66B2777B8382425A92385C36 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */,
+				E679C4174BF54B959D177FDE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */,
+				13CEF4BD4E3641E89142B388 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */,
+				0E9C935DC58E4C8CAA677A5E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */,
+				2B19D96BE13B497C81DD9AB8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */,
+				9989C7180E9C4A1491C57881 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */,
+				72AF6E65CE184045997894AD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */,
+				08BF824F52A14169A42041BF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */,
+				ACA1C0AE7DFB4291B4BE0046 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */,
+				6B98CED0B0554404944D4EAA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */,
+				19C718A340AC4EA2BC94FBE6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */,
+				E50B909FF99B473995222831 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */,
+				BEE8BDDD3F9342969F59BE3F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */,
+				39F43EA9F8994F8CAA9BCFC3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */,
+				A0FE63166103425BAEC86EE0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */,
+				EF5BC5A1FFDB44069B7AEABD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */,
+				70388864DB4247818D697F17 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */,
+				83B125FED4B8401781923E19 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */,
+				1A489492C9144DFCAF7A955C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */,
+				30C9115B3931437E8A05A895 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */,
+				428D9B6B262F405BBBC772DD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */,
+				DC28125569024F20990F0C4F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */,
+				46B343AA48BA49628486E0D4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */,
+				D62A8FED1D4046C982E2AD7D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */,
+				6978B6184488499EAA110B8B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */,
+				3D49D6BFB611484EB0AE7E1E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */,
+				43AF96F63E444533A35D6DDF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */,
+				E7994ECD6B354A5B81587881 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */,
+				8D4756EEB3ED4822B077FC9B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */,
+				D7E8ADCF5775419DBCFC342F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */,
+				82466400DF1E4420AB5B4DC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */,
+				49E47989BA9E4CC4B33A7182 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */,
+				9CD1666FCF2444F9828560FE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */,
+				8794D705943249E8B45832C1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */,
+				0F485F78F4E94071880A027F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */,
+				2E8A21B509574D018CA6A4DB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */,
+				65BA9A43F16B47A9B2E12C6D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */,
+				6414DFFE8C0B438D95389505 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */,
+				EF3D9EE80D9441BB9231269F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */,
+				A02E4678E25142D68913BA2A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */,
+				0B667537770143A5B84870A3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */,
+				21497E0A0BFA48E9A72D4E77 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */,
+				9DE6256B1696419380001BAA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */,
+				834ADABA07E54C46ADFA0AB1 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */,
+				C2877C03D6E84BDD8E838574 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */,
+				11149879FA7C429CB8C845EB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */,
+				0D951673FEBA4EC190F92D4B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */,
+				90EDC4EB4A7246869431F5CF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */,
+				A861B346C8924AD9ADD03756 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */,
+				01801BBA4AC0490D861CB2B6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */,
+				CD487D1B6865474DAB000827 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */,
+				D1399D9025BC49A5BE35BBFF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */,
+				646E7ABBCE5048389C2B68F2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */,
+				5D100ECFF837420BB66FA507 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */,
+				D0E1B45C547947738C149CB4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */,
+				E1D53F264AC44969A2212A67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */,
+				20FDBB822AAC413FA13A432C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */,
+				E52476F96D5B4B15A9773066 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */,
+				06DEC8A565FF443D954E2A99 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */,
+				60A4185D6E10496595F66291 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */,
+				9F5B027C54F3481E95229336 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */,
+				C91C87C736094C888D17BC6D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */,
+				E9B114CE042843C68CE4D366 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */,
+				4029A0166C26452881B01F76 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */,
+				9EB0A6B8690B40A994963C31 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */,
+				F69B7D5A8A454DF4A73B9474 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */,
+				737A0E56605C4682A332E76C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */,
+				5F60916DBAFB466C90FD97B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */,
+				5A2330C1C0AD4850BAC7F400 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */,
+				610BAC9CAA2F4FA8A2D99D6B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */,
+				7F65DE588FEB47BFA17031F5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7A65C10BC32243FEBF17768C = {
+			isa = PBXGroup;
+			children = (
+				BF4B03C2106E47AD9DDE25AE /* PlugIn-Examples */,
+				C6135A837D4046AD8D049CB6 /* ALL_BUILD */,
+				A53C5E10D1554B1EA432A892 /* Products */,
+				7AC2BE1E5B6C42289430DB0B /* Frameworks */,
+				1299A18B330643B8A20A5E9D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		7AC2BE1E5B6C42289430DB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		924767B3686A43BFBB36B550 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE168419FDF4D6EB18C6D68 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */,
+				1BB702CE89F4494C971BAF42 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */,
+				998B5D3D6CA94976BEF786C9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */,
+				0958417414CD4F47BCB97B83 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */,
+				E38801A88EC446B3A427CFED /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */,
+				0041F977078E466AAD94221A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */,
+				2C0FA0D9D54D4F849D5A3517 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */,
+				BD711297A612471AAD7A74ED /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */,
+				453D2A5638674F1A99D17ED4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */,
+				5AAE37994DA54D0DAF041801 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */,
+				8079B85CC3F540B59CC0575C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */,
+				B062780DFB1D474FAF317717 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */,
+				1CFCAA4BACE544C5BD3BA7BB /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */,
+				4820CC2BE95446AD8B674480 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */,
+				1BAE7C9F848B4889B94A9227 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */,
+				FAFC201A0D2C4EDB9892032F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */,
+				92056B21531841BD8780C38E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */,
+				D894AE9CD177442681888A39 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */,
+				EB2987A3555D4FDF91843407 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */,
+				B042C7A3575D47849E3732DD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */,
+				854D516CA4834E689054A563 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */,
+				A6037BFBE88B465CA4299897 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */,
+				E071B78937664727AB764B0E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */,
+				EC3E92254778479C8B1C2C8E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */,
+				2E73C0A9F7D04F9B9220A66A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */,
+				D4B262AF09A74951AE4BBA89 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */,
+				6DE4CAA46CC94A55BC9AD02B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */,
+				DD94EFA2A8A1404BB7E976D8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */,
+				E1D2691D67F64A9FA532C6D2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */,
+				3A5990BD6FE94C1EA91ADD50 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */,
+				079AE5459CED4AD38622FA36 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */,
+				2D3FC67C5FC8491F93CBC317 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */,
+				6659940C377C419DBD05083C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */,
+				73CAA0747E374501AC162DC2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */,
+				710F47C66F4E4164842D5829 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */,
+				E52B1299570342699FCD54B8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */,
+				984BED16B68941FDA77608DA /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */,
+				4F4DB6BA764E44D4B088E9EF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */,
+				89A8A11DA25143858F8489E3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */,
+				F2EF17FB6E604B119B590974 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */,
+				44DFDFBF9D1C4D9C9473A939 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */,
+				2A9A2B417305455488B82055 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */,
+				E229BC902021403B9EAD2613 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */,
+				1C1E1D63DC154D6391DBC88A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */,
+				399167DC62C1469FAE21700A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */,
+				36A3B4CFEB33401DAD9A679D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */,
+				67B516A27DFF4B89929AE2D5 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */,
+				12EEC220276E471F919F7101 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */,
+				368E7ED30564465290A34A93 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */,
+				5B75243AFA4249258E615666 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */,
+				9C64723729E9489582D0B474 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */,
+				4EE9D204AD014775A9A6768A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */,
+				6265549E1C4C4C9AA130BA1D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */,
+				726C8861C2CD4868AE821430 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */,
+				5E72263DB7A94ABA8C2C6506 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */,
+				27EA81BB01244E0D9782782C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */,
+				A41B3090A33248E8A72CC559 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */,
+				AB3A995083EC4A2297A19DC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */,
+				B0BA83D96E4D4761B31205FE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */,
+				4DEE3170A9284155BF656019 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */,
+				101286720E3B4B758ED65CA8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */,
+				044780EBBAEE4B23BB1B9780 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */,
+				1B2F357E18894013BB9B73E8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */,
+				A1984B5CB249463090D905D6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */,
+				9B14FB00162140C7A0EE55C2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */,
+				A4DEC14EFE1D466B9795E5AF /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */,
+				7A57FB3C50064CAEB5E1BAF7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */,
+				93F3866C8ABD457C8B5AF8B0 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */,
+				94F981AA97F342399D60F7B3 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */,
+				97CE7A9B4FF541E994BAA205 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */,
+				C4C69B22164249D9842A718C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */,
+				F322E61790D84DD287D7B6D9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */,
+				F201AFB5B3D940E4A5281781 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A53C5E10D1554B1EA432A892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E99FA4E34F4C7C8C38F2E0 /* mda-vst3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF4B03C2106E47AD9DDE25AE /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				064E6061A4934D768B072BEC /* mda-vst3 */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		C6135A837D4046AD8D049CB6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E1E18C28A4260A01D9400 /* CMake Rules */,
+				CA81F54806A547799357354D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9196346957920AFF8FC5A1 /* mda-vst3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B6975900F44B2BADEFA398 /* Build configuration list for PBXNativeTarget "mda-vst3" */;
+			buildPhases = (
+				0620253B905EDD25EB93C27F /* CMake PreBuild Rules */,
+				CBE91A905694474CB5589FAA /* Sources */,
+				30F7A6501AA445968536E4CC /* Frameworks */,
+				115E173746B86C6AB47D36A6 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A4B2AAFFBA44BAD975970EE /* PBXTargetDependency */,
+			);
+			name = "mda-vst3";
+			productName = "mda-vst3";
+			productReference = 91E99FA4E34F4C7C8C38F2E0 /* mda-vst3 */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF310BAC5E6A4FE9A54A7412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 77AFE262620941709589A1FD /* Build configuration list for PBXProject "smtg-vst3-mda" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A3FCD34BBA634439A5092768 /* Debug */,
+				AC9FFDCDD98147518B4E2B21 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7A65C10BC32243FEBF17768C;
+			projectDirPath = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3";
+			projectRoot = "";
+			targets = (
+				1585AEC9584467CAA9446A64 /* ALL_BUILD */,
+				1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */,
+				8F9196346957920AFF8FC5A1 /* mda-vst3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0620253B905EDD25EB93C27F /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		115E173746B86C6AB47D36A6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  codesign --force --verbose --sign - /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.11.0 -path /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3 -compat /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/resource/vst3_compatibility.json -output /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  codesign -f -s - -v /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Debug/validator /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3 
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug/mda-vst3.vst3 /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  codesign --force --verbose --sign - /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.11.0 -path /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3 -compat /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/resource/vst3_compatibility.json -output /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  codesign -f -s - -v /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin
+  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/bin/Release/validator  /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release/mda-vst3.vst3 /Users/noahlynaugh/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5663E77F96CC86558BD72735 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  make -f /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  make -f /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		729B76E7AB44A77246118953 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE91A905694474CB5589FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF1DAB099D34F57A9A4374C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */,
+				DBAA25FEF92B4340A1CE3887 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */,
+				F638B25FD0774CDBB76CFB82 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */,
+				114F14C55B304E8687FAC8AC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */,
+				37EF5D28DDDA45B1988E5F82 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */,
+				185A4584835049B3AD1AD4C9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */,
+				DEAD1A38AF394CADA1D1A396 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */,
+				6C05773448EC430481FED562 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */,
+				03A875C23BDC47AFBA28A214 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */,
+				F47B74EF1CA44B4B8532A8F6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */,
+				09ABA08FC01E4D7590AADC10 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */,
+				516D0086D9734E86B9A46519 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */,
+				EBEAF6BCE7824174AD8E7233 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */,
+				40061982A33F42CF89584F61 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */,
+				A27DDFDB0F954F78BD7AF180 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */,
+				A8314C682DC24B608E138915 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */,
+				D6675531F58D4888BFAA002F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */,
+				DD39FB5827ED459E8152299B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */,
+				2D0FCC9461354C388258BFC7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */,
+				D7820395A8A14BCF9FE76F98 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */,
+				53E2DB0D6D6E43F883B595A6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */,
+				B44C911E35A34502A8B2CE1D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */,
+				9A21D27121C4474D9541B76C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */,
+				9DD734974A014EA9A578E964 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */,
+				77133E7DCBF94121987E8515 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */,
+				9F80B54F874346EBB647765E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */,
+				60E719DFDC7B40BDA03453B7 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */,
+				4C4085FE76D44AF9B6C56E08 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */,
+				C2C1A78AF062452A93A1CB67 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */,
+				349B10D71129440FA95D8CE2 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */,
+				3A4094E16B1B4DA3BB47D912 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */,
+				3196EC20F5C24B08BB2AAD70 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */,
+				7090BE4715004FB48861905C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */,
+				81863EAD01E242868579315A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */,
+				56BB1D08F5DB463F8901C18B /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */,
+				6EDEFDEFFEFA44FFB83C272A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */,
+				AE872314C44C4330AD259AF6 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */,
+				BCF4B604063D420FB6DE8DFD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */,
+				686EF9CEB1B34C668E287EB8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */,
+				A556BD242B0E44919154DAD4 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */,
+				CAB5A287EE6D48D0BEDE44BD /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */,
+				832BE24306EB44809C01138E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */,
+				D5FEC7ECA8B94648929B8FCE /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */,
+				024327DA0426427194F772E9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */,
+				935422EA7DF249F2B7128A4F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */,
+				2AA4A0ED0B7A47CCBC010A8F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */,
+				2B43EC8E48824152921BF759 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */,
+				2D410D7D30E643B68E5B263D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */,
+				C09B39C140F441A4A8C36517 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */,
+				C16E09CB72BF4F6B83106401 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */,
+				A53CA9ED8DED4798B92A9198 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */,
+				9E47FFD3F2DB477999EB2C8E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */,
+				4DCAB5D9D12B4D019C35CF07 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */,
+				FA8EAF117B9D4AFEB3599951 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */,
+				01B3795F6F7647058BDB9670 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */,
+				0F060EEF8EA643669FECBD2E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */,
+				225DA2A3CA574428B621B91A /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */,
+				B7D65659333C40E681E57183 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */,
+				4D590EDFBF9D4CC093009E5F /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */,
+				F6A324744F6746EEA1DF1501 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */,
+				300483316CE642F9B3E047AC /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */,
+				993124E8D2FA43FF884E5FD8 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */,
+				9C924C2CE8A847EFA4DAE300 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */,
+				3CEB58EFE6BA41B5930A523E /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */,
+				14951A58C5BA4DB8A9D4F38C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */,
+				370FA1FE3A224A029CDFCDB9 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */,
+				50B5A3FDF723469789B6DC47 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */,
+				3CF7F500CAE1445EAEA08041 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */,
+				9AD75CF6D21A4BF2A4C59B90 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */,
+				0C089D3F97254E7F947A564D /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */,
+				F0F943A2DFFE4B378EE08C2C /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */,
+				C0D5C7971DAF455BA38F3D87 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */,
+				824B74B626A04A91B85B9005 /* /Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C2922355058455682BE1269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9196346957920AFF8FC5A1 /* mda-vst3 */;
+			targetProxy = C80B1D7DCDE64AC1BBE71656 /* PBXContainerItemProxy */;
+		};
+		3A0610E93D9A406396CDA848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */;
+			targetProxy = 59A0BFA6223345818D4AA25C /* PBXContainerItemProxy */;
+		};
+		9A4B2AAFFBA44BAD975970EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE7A27FBF1F483C86C9EF16 /* ZERO_CHECK */;
+			targetProxy = 48C1F3FAA0CA4A82BB16AD66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E52624545B460E9CB835E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SYMROOT = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build";
+			};
+			name = Debug;
+		};
+		09283EAD9C204BF4A82D262A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1DCF7E238B474BE08ABA5E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3029168FDB17466E9D04CEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build";
+			};
+			name = Release;
+		};
+		3F57EC7C4A58460795E2F709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		703DC12921944C2B82CD82A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Debug";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",mda_vst3_EXPORTS,SMTG_MDA_VST2_COMPATIBILITY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ("/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/base/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/pluginterfaces/..","$(inherited)");
+				INFOPLIST_FILE = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/mda-vst3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libsdk.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libsdk_common.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libbase.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Debug/libpluginterfaces.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.mda-vst3";
+				PRODUCT_NAME = "mda-vst3";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build/mda-vst3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		BB9CAA28C5E242F29BD231D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/VST3/Release";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",mda_vst3_EXPORTS,SMTG_MDA_VST2_COMPATIBILITY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ("/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/public.sdk/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/base/..","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/pluginterfaces/..","$(inherited)");
+				INFOPLIST_FILE = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/mda-vst3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libsdk.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libsdk_common.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libbase.a","/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/lib/Release/libpluginterfaces.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.mda-vst3";
+				PRODUCT_NAME = "mda-vst3";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/noahlynaugh/Desktop/Coding/Studio_PLND/Digital-Effect-Controller/DEC/VST_Plugin/vst3sdk/build/build/mda-vst3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		E8108CDBB8DD429BBCA171B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BBF72EFA49433BA187D9E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09283EAD9C204BF4A82D262A /* Debug */,
+				3F57EC7C4A58460795E2F709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49B6975900F44B2BADEFA398 /* Build configuration list for PBXNativeTarget "mda-vst3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703DC12921944C2B82CD82A5 /* Debug */,
+				BB9CAA28C5E242F29BD231D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B0A19C6953541FC9A861B5C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8108CDBB8DD429BBCA171B3 /* Debug */,
+				1DCF7E238B474BE08ABA5E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77AFE262620941709589A1FD /* Build configuration list for PBXProject "smtg-vst3-mda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E52624545B460E9CB835E3 /* Debug */,
+				3029168FDB17466E9D04CEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF310BAC5E6A4FE9A54A7412 /* Project object */;
+}
